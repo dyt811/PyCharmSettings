@@ -1,0 +1,3 @@
+<templateSet group="Python">
+  <template name="]time" value="asdfasdf" description="Time stamp" toReformat="true" toShortenFQNames="true" />
+</templateSet>
