@@ -3,4 +3,19 @@
     <option name="REFORMAT_ON_PASTE" value="1" />
     <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
   </component>
+  <component name="DefaultFont">
+    <option name="FONT_FAMILY" value="JetBrains Mono" />
+    <option name="USE_LIGATURES" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\b(todo|fixme)\b.*" />
+    <pattern icon="question" useCustomColors="true" pattern="WTF">
+      <option name="FOREGROUND" value="0" />
+      <option name="BACKGROUND" value="f3ff00" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="EFFECT_COLOR" value="3c3f41" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+      <option name="EFFECT_TYPE" value="5" />
+    </pattern>
+  </component>
 </application>
