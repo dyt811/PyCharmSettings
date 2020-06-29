@@ -1,0 +1,8 @@
+<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="CloseEditor">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+</keymap>
