@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
+      <mapping pattern="ThingsNotSure" type="PLAIN_TEXT" />
       <mapping pattern=".flaskenv" type="PLAIN_TEXT" />
       <mapping pattern="5bd48b7daafc00fc2617770df9853441" type="PLAIN_TEXT" />
       <removed_mapping pattern="charts_dynamic.js" approved="true" type="PLAIN_TEXT" />
