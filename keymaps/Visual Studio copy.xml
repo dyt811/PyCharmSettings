@@ -60,7 +60,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt y" />
     <keyboard-shortcut first-keystroke="f1" />
   </action>
-  <action id="ToggleDistractionFreeMode">
+  <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="TypeHierarchy" />
