@@ -1,4 +1,4 @@
-<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+<keymap version="1" name="Yang's Visual Studio OP" parent="Visual Studio">
   <action id="ActivateTerminalToolWindow" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
@@ -59,6 +59,10 @@
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="ctrl alt y" />
     <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+    <keyboard-shortcut first-keystroke="alt f11" />
   </action>
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="f4" />
