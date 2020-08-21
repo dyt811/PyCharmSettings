@@ -11,8 +11,8 @@
       <mapping pattern="requirements" type="PLAIN_TEXT" />
       <mapping pattern="Nightly_Manta_Docker_Build_CentOS.sh" type="Shell Script" />
       <removed_mapping pattern="requirements.txt" approved="true" type="requirements.txt" />
-      <removed_mapping pattern="charts_dynamic.js" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="requirements.txt" approved="true" type="requirements.txt" />
+      <removed_mapping pattern="charts_dynamic.js" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="851338" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
