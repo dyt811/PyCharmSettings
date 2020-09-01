@@ -2,15 +2,15 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
-      <mapping pattern="version_number" type="PLAIN_TEXT" />
-      <mapping pattern="5bd48b7daafc00fc2617770df9853441" type="PLAIN_TEXT" />
-      <mapping pattern="requirements" type="PLAIN_TEXT" />
-      <mapping pattern=".flake8" type="PLAIN_TEXT" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
+      <mapping pattern="requirements" type="PLAIN_TEXT" />
+      <mapping pattern="5bd48b7daafc00fc2617770df9853441" type="PLAIN_TEXT" />
+      <mapping pattern=".flake8" type="PLAIN_TEXT" />
+      <mapping pattern="version_number" type="PLAIN_TEXT" />
       <mapping pattern=".flaskenv" type="PLAIN_TEXT" />
+      <mapping pattern="Nightly_Manta_Docker_Build_CentOS.sh" type="Shell Script" />
       <removed_mapping pattern="charts_dynamic.js" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="851338" approved="true" type="PLAIN_TEXT" />
-      <mapping pattern="Nightly_Manta_Docker_Build_CentOS.sh" type="Shell Script" />
     </extensionMap>
   </component>
 </application>
