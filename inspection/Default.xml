@@ -1,6 +1,9 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
   <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="HighlightComments" enabled="true" level="Additional Comments" enabled_by_default="true">
+    <scope name="Project Files" level="Additional Comments" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoredPackages">
