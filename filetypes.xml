@@ -6,6 +6,7 @@
       <mapping pattern="version_number" type="PLAIN_TEXT" />
       <mapping pattern=".flake8" type="PLAIN_TEXT" />
       <mapping pattern=".flaskenv" type="PLAIN_TEXT" />
+      <mapping pattern="DevDiaries" type="PLAIN_TEXT" />
       <mapping pattern="5bd48b7daafc00fc2617770df9853441" type="PLAIN_TEXT" />
       <mapping pattern="requirements" type="PLAIN_TEXT" />
       <mapping pattern="Nightly_Manta_Docker_Build_CentOS.sh" type="Shell Script" />
