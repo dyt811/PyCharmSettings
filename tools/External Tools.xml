@@ -3,7 +3,7 @@
     <exec>
       <option name="COMMAND" value="C:\Users\yding\AppData\Local\Continuum\miniconda3\envs\spectrum-sweep\Scripts\black.exe" />
       <option name="PARAMETERS" value="$FilePath$" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
