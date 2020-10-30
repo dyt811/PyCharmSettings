@@ -25,5 +25,12 @@
         <option value="N806" />
       </list>
     </option>
+    <option name="ignoredBaseClasses">
+      <list>
+        <option value="unittest.TestCase" />
+        <option value="unittest.case.TestCase" />
+        <option value="spectrumOptimizer.interface.shelf.Shelf6500" />
+      </list>
+    </option>
   </inspection_tool>
 </profile>

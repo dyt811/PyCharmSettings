@@ -1,5 +1,9 @@
 <application>
+  <component name="ImportFilteringUsageViewSetting">
+    <option name="SHOW_IMPORTS" value="false" />
+  </component>
   <component name="ShowUsagesSettings">
+    <option name="GROUP_BY_FILE_STRUCTURE" value="true" />
     <option name="GROUP_BY_MODULE" value="true" />
     <option name="GROUP_BY_USAGE_TYPE" value="true" />
     <option name="PREVIEW_USAGES_SPLITTER_PROPORTIONS" value="0.423028" />
@@ -8,6 +12,6 @@
     <option name="IS_EXPANDED" value="true" />
     <option name="GROUP_BY_PACKAGE" value="false" />
     <option name="GROUP_BY_USAGE_TYPE" value="false" />
-    <option name="PREVIEW_USAGES_SPLITTER_PROPORTIONS" value="0.34160304" />
+    <option name="PREVIEW_USAGES_SPLITTER_PROPORTIONS" value="0.2912262" />
   </component>
 </application>
