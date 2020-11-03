@@ -15,5 +15,6 @@
     <entry key="ide.tooltip.showAllSeverities" value="true" />
     <entry key="ide.borderless.tab.caption.in.title" value="false" />
     <entry key="ide.debug.in.title" value="true" />
+    <entry key="editor.distraction.free.mode" value="true" />
   </component>
 </application>
