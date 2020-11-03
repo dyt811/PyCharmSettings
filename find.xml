@@ -1,9 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="OnlyProjectFile" />
-    <option name="defaultScopeName" value="OnlyProjectFile" />
-    <option name="SEARCH_SCOPE" value="OnlyProjectFile" />
-    <option name="FILE_MASK" value="*.py" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>py</mask>
     <mask>*.py</mask>
   </component>
