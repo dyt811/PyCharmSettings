@@ -1,6 +1,9 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
   <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="HighlightComments" enabled="true" level="Additional Comments" enabled_by_default="true">
+    <scope name="Project Files" level="Additional Comments" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoredPackages">
@@ -20,6 +23,21 @@
       <list>
         <option value="N803" />
         <option value="N806" />
+        <option value="N802" />
+      </list>
+    </option>
+    <option name="ignoredBaseClasses">
+      <list>
+        <option value="unittest.TestCase" />
+        <option value="unittest.case.TestCase" />
+        <option value="spectrumOptimizer.interface.shelf.Shelf6500" />
+      </list>
+    </option>
+  </inspection_tool>
+  <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoredIdentifiers">
+      <list>
+        <option value="freq_THerz_red_edge_central" />
       </list>
     </option>
   </inspection_tool>

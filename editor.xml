@@ -1,6 +1,11 @@
 <application>
-  <component name="CodeInsightSettings">
-    <option name="INSERT_BRACE_ON_ENTER" value="false" />
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="Python" value="true" />
+      </map>
+    </option>
+    <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
   </component>
   <component name="LiveEditOptions" chromeAutoDelay="100" chromeUpdateJSOnChanges="true" nodeAutoDelay="700" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" updateFilesToCompile="true" useJBChromeExtension="true" />
   <component name="TodoConfiguration">
