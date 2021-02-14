@@ -15,6 +15,8 @@
       <mapping pattern=".env1" type="PLAIN_TEXT" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern=".flaskenv" type="PLAIN_TEXT" />
+      <mapping ext="py~develop" type="PLAIN_TEXT" />
+      <mapping ext="py~head" type="PLAIN_TEXT" />
       <mapping pattern="Nightly_Manta_Docker_Build_CentOS.sh" type="Shell Script" />
       <removed_mapping pattern="charts_dynamic.js" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="851338" approved="true" type="PLAIN_TEXT" />
