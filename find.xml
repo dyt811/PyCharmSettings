@@ -9,5 +9,6 @@
     <mask>py</mask>
     <mask>*.js</mask>
     <mask>*.py</mask>
+    <mask>*.cs</mask>
   </component>
 </application>
