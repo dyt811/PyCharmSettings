@@ -4,11 +4,12 @@
     <extensionMap>
       <mapping pattern="RequireGoogleDownloader" type="AUTO_DETECTED" />
       <mapping pattern="version" type="AUTO_DETECTED" />
-      <mapping pattern=".env" type="AUTO_DETECTED" />
       <mapping pattern="DockerfileSlim2" type="Dockerfile" />
       <mapping pattern="DockerfileSlim" type="Dockerfile" />
+      <mapping pattern=".env_backup" type="Env File" />
       <mapping pattern="version_number" type="PLAIN_TEXT" />
       <mapping pattern=".xtera_trial_env" type="PLAIN_TEXT" />
+      <mapping pattern=".env_old" type="PLAIN_TEXT" />
       <mapping pattern=".rover12env" type="PLAIN_TEXT" />
       <mapping pattern="5bd48b7daafc00fc2617770df9853441" type="PLAIN_TEXT" />
       <mapping pattern="requirements" type="PLAIN_TEXT" />
@@ -22,10 +23,9 @@
       <mapping pattern="Nightly_Manta_Docker_Build_CentOS.sh" type="Shell Script" />
       <removed_mapping ext="851338" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
-      <removed_mapping pattern=".env" approved="true" type="Env File" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
       <removed_mapping pattern="charts_dynamic.js" approved="true" type="PLAIN_TEXT" />
-      <mapping pattern=".env_backup" type="Env File" />
     </extensionMap>
   </component>
 </application>
