@@ -1,5 +1,6 @@
 <application>
   <component name="NotificationConfiguration">
+    <notification groupId="Code With Me Zipped Logs" playSound="true" />
     <notification groupId="Docker: Dockerfile detection" displayType="NONE" shouldLog="false" />
   </component>
 </application>
