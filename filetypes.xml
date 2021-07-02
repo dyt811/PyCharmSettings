@@ -8,6 +8,7 @@
       <mapping pattern="DockerfileSlim2" type="Dockerfile" />
       <mapping pattern="DockerfileSlim" type="Dockerfile" />
       <mapping pattern=".env_backup" type="Env File" />
+      <mapping ext="obj" type="Native" />
       <mapping ext="exe" type="Native" />
       <mapping pattern="version_number" type="PLAIN_TEXT" />
       <mapping pattern=".xtera_trial_env" type="PLAIN_TEXT" />
