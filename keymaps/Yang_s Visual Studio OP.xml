@@ -62,6 +62,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt y" />
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="Terminal.SwitchFocusToEditor" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="shift alt enter" />
     <keyboard-shortcut first-keystroke="alt f11" />
