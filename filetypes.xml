@@ -23,6 +23,7 @@
       <mapping pattern=".flaskenv" type="PLAIN_TEXT" />
       <mapping ext="py~develop" type="PLAIN_TEXT" />
       <mapping ext="py~head" type="PLAIN_TEXT" />
+      <mapping ext="doctree" type="PLAIN_TEXT" />
       <mapping pattern="Nightly_Manta_Docker_Build_CentOS.sh" type="Shell Script" />
       <removed_mapping ext="851338" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
