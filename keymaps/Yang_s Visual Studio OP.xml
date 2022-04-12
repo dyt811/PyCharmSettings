@@ -1,4 +1,7 @@
 <keymap version="1" name="Yang's Visual Studio OP" parent="Visual Studio">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
   <action id="ActivateTerminalToolWindow" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
@@ -13,6 +16,12 @@
   <action id="Console.TableResult.NavigateAction" />
   <action id="ContextHelp" />
   <action id="EditSource" />
+  <action id="Editor Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="shift alt minus" />
   </action>
@@ -68,6 +77,12 @@
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
   <action id="ServiceView.ShowServices" />
   <action id="SilentCodeCleanup" />
