@@ -3,11 +3,15 @@
     <extensionMap>
       <mapping pattern="version_number" type="AUTO_DETECTED" />
       <mapping pattern="version" type="AUTO_DETECTED" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
+      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
       <removed_mapping ext="txt" approved="true" type="requirements.txt" />
       <mapping ext="txt" type="requirements.txt" />
+      <mapping pattern="configureDataSport.m" type="Matlab" />
     </extensionMap>
   </component>
 </application>
