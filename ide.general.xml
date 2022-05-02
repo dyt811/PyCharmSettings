@@ -20,6 +20,6 @@
     <entry key="actionSystem.fix.alt.gr" value="false" />
     <entry key="rider.enable.designer.winForms" value="true" />
     <entry key="documentation.show.toolbar" value="true" />
-    <entry key="clang.parameter.info" value="true" />
+    <entry key="cidr.max.intellisense.file.length" value="5000000" />
   </component>
 </application>
