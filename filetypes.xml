@@ -7,16 +7,12 @@
       <mapping pattern="configureDataSport.m" type="Matlab" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
-      <removed_mapping ext="csv" type="CSV/TSV" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
-      <removed_mapping ext="tsv" type="CSV/TSV" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
       <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="CSV" />
-      <mapping ext="tsv" type="TSV" />
       <mapping ext="txt" type="requirements.txt" />
     </extensionMap>
   </component>
