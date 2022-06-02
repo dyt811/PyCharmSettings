@@ -1,0 +1,6 @@
+<application>
+  <component name="UmlConfiguration">
+    <option name="defaultLayout" value="RADIAL" />
+    <option name="layout" value="RADIAL" />
+  </component>
+</application>
