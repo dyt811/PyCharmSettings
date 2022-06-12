@@ -8,5 +8,6 @@
     <mask>py</mask>
     <mask>*.js</mask>
     <mask>*.py</mask>
+    <mask>*.java</mask>
   </component>
 </application>
