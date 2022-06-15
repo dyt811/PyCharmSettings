@@ -1,0 +1,9 @@
+<application>
+  <component name="DockerRegistry">
+    <DockerRegistry>
+      <option name="address" value="artifactory.ciena.com" />
+      <option name="name" value="JFrog" />
+      <option name="username" value="yding" />
+    </DockerRegistry>
+  </component>
+</application>
