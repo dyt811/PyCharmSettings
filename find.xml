@@ -7,8 +7,8 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>py</mask>
     <mask>*.js</mask>
-    <mask>*.py</mask>
     <mask>*.java</mask>
     <mask>*.pom</mask>
+    <mask>*.py</mask>
   </component>
 </application>
