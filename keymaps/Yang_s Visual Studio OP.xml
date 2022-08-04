@@ -82,6 +82,7 @@
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="ServiceView.ShowServices" />
+  <action id="ShowReformatFileDialog" />
   <action id="SilentCodeCleanup" />
   <action id="SurroundWithLiveTemplate" />
   <action id="SwitcherIterateItems" />
@@ -96,6 +97,9 @@
   </action>
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Tool_External Tools_Black">
+    <keyboard-shortcut first-keystroke="shift ctrl alt l" />
   </action>
   <action id="TypeHierarchy" />
   <action id="Unscramble" />
