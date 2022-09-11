@@ -4,5 +4,9 @@
       <action id="ReformatCode" />
       <action id="Tool_External Tools_Black" />
     </macro>
+    <macro name="Open source in New Tab">
+      <action id="GotoDeclaration" />
+      <action id="SplitVertically" />
+    </macro>
   </component>
 </application>
