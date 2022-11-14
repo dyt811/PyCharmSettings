@@ -21,5 +21,6 @@
     <entry key="rider.enable.designer.winForms" value="true" />
     <entry key="documentation.show.toolbar" value="true" />
     <entry key="cidr.max.intellisense.file.length" value="5000000" />
+    <entry key="editor.distraction.free.mode" value="true" />
   </component>
 </application>
