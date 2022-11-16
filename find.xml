@@ -13,6 +13,7 @@
     <mask>*.java</mask>
     <mask>*.html</mask>
     <mask>*.js</mask>
+    <mask>*.m</mask>
     <mask>*.py</mask>
   </component>
 </application>
