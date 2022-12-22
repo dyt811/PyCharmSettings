@@ -10,8 +10,8 @@
     <mask>*.pom</mask>
     <mask>*.html</mask>
     <mask>*.m</mask>
-    <mask>*.js</mask>
     <mask>*.java</mask>
+    <mask>*.js</mask>
     <mask>*.py</mask>
   </component>
 </application>
