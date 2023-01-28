@@ -8,6 +8,7 @@
       <mapping pattern=".env_nabih" type="PLAIN_TEXT" />
       <mapping pattern=".env_SE&amp;IGLS" type="PLAIN_TEXT" />
       <mapping pattern=".env_GLS" type="PLAIN_TEXT" />
+      <mapping pattern=".env_SE&amp;I_GLS_GeoMesh" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
