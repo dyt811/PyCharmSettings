@@ -12,6 +12,7 @@
     <mask>*.m</mask>
     <mask>*.js</mask>
     <mask>*.py</mask>
+    <mask>*.json</mask>
     <mask>*.java</mask>
   </component>
 </application>
