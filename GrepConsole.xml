@@ -1,0 +1,185 @@
+<application>
+  <component name="GrepConsole">
+    <option name="profiles">
+      <list>
+        <Profile>
+          <option name="defaultProfile" value="true" />
+          <option name="grepExpressionGroups">
+            <list>
+              <GrepExpressionGroup>
+                <option name="grepExpressionItems">
+                  <list>
+                    <GrepExpressionItem>
+                      <option name="continueMatching" value="true" />
+                      <option name="grepExpression" value="2022-09-03 19:49:39.693  INFO [    shortQueryThreadPool-4] (UpcJob.java:224) - Parsing Upgrade Pre-Check JOB: 'restart-gates-complex_02'&#10;2022-09-03 19:49:39.695  INFO [    shortQueryThreadPool-4] (UpcJob.java:237) - Current 'restart-gates-complex_02' job METADATA loaded from {&#10;  &quot;upc_version&quot; : &quot;2022.08.29.16.43&quot;,&#10;  &quot;python_version&quot; : &quot;3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]&quot;,&#10;  &quot;qconfig_version&quot; : &quot;1.0.0&quot;&#10;}&#10;2022-09-03 19:49:39.696  INFO [    shortQueryThreadPool-4] (UpcJob.java:243) - UPC binary internal operational data for job 'restart-gates-complex_02' loaded: {&#10;  &quot;job&quot; : {&#10;    &quot;id&quot; : &quot;restart-gates-complex&quot;,&#10;    &quot;title&quot; : &quot;Card restart gates complex job(POC)&quot;,&#10;    &quot;description&quot; : &quot;Validate restart gates from PECs NTK665AA,NTK667AA,NTK667AB,NTK669AK,NTK642AA&quot;,&#10;    &quot;reference&quot; : &quot;none&quot;,&#10;    &quot;routes&quot; : {&#10;      &quot;get-job&quot; : {&#10;        &quot;package&quot; : &quot;jobs.restartgate&quot;,&#10;        &quot;module&quot; : &quot;.restart_gate&quot;,&#10;        &quot;class&quot; : &quot;RestartGateComplex&quot;,&#10;        &quot;method&quot; : &quot;get_config&quot;&#10;      },&#10;      &quot;evaluate&quot; : {&#10;        &quot;package&quot; : &quot;jobs.restartgate&quot;,&#10;        &quot;module&quot; : &quot;.restart_gate&quot;,&#10;        &quot;class&quot; : &quot;RestartGateComplex&quot;,&#10;        &quot;method&quot; : &quot;evaluate&quot;&#10;      }&#10;    },&#10;    &quot;type&quot; : &quot;complex&quot;,&#10;    &quot;queries&quot; : &quot;2&quot;&#10;  }&#10;}&#10;2022-09-03 19:49:39.696  INFO [    shortQueryThreadPool-4] (UpcJob.java:257) - Current 'restart-gates-complex_02_02' job STATUS: 'INIT'&#10;2022-09-03 19:49:39.696  INFO [    shortQueryThreadPool-4] (UpcJob.java:262) - Current 'restart-gates-complex_02_02' job QUERY CONTENT: '[ {&#10;  &quot;header&quot; : &quot;_RIvvvvv HEADER: disp-gate vvvvv&quot;,&#10;  &quot;TL1&quot; : [ &quot;RTRV-INVENTORY&quot; ],&#10;  &quot;footer&quot; : &quot;_RI^^^^^ FOOTER: disp-gate ^^^^^&quot;&#10;} ]'&#10;2022-09-03 19:49:39.697  INFO [    shortQueryThreadPool-4] (UpcRequest.java:68) - Request #0 of 'restart-gates-complex_02_02' from 'C:\Users\yding\OneDrive - Ciena Corporation\Documents\NAVA\ExternalTools\UPC\6500UPC_Job_restart-gates-complex.json' include the following: &#10;2022-09-03 19:49:39.697  INFO [    shortQueryThreadPool-4] (UpcRequest.java:69) - &#9;Debug CMDs: []&#10;2022-09-03 19:49:39.697  INFO [    shortQueryThreadPool-4] (UpcRequest.java:70) - &#9;PECs Target: []&#10;2022-09-03 19:49:39.697  INFO [    shortQueryThreadPool-4] (UpcRequest.java:71) - &#9;TL1 CMDs: [[RTRV-INVENTORY]]&#10;2022-09-03 19:49:39.698  INFO [    shortQueryThreadPool-4] (UpcJob.java:305) - Job data loading complete for restart-gates-complex_02_02 as specified at C:\Users\yding\OneDrive - Ciena Corporation\Documents\NAVA\ExternalTools\UPC\6500UPC_Job_restart-gates-complex.json&#10;2022-09-03 19:49:39.732 TRACE [           pool-1-thread-3] (GenericQuery.java:83) - ActualCommands to execute: [ActualCommand[commandStr=RTRV-INVENTORY:&quot;SLTE-5&quot;:ALL:UPC1;, genericCommand=GenericQueryCommand[tag=UNKNOWN, cmdString=RTRV-INVENTORY:/*###shelf.shelfTid###*/:ALL:UPC1;]]]&#10;2022-09-03 19:49:39.732 TRACE [           pool-1-thread-3] (GenericQuery.java:129) - Shelf IP = &lt;10.132.242.85&gt; External Shelf IP = &lt;10.132.242.85&gt; getTL1IpOrException returned IP = &lt;10.132.242.85&gt;&#10;2022-09-03 19:49:41.492 TRACE [           pool-1-thread-3] (GenericQuery.java:165) - Sending to shelf=SLTE-5-5, ip1=10.132.242.85, ip2=10.132.242.85  the following TL1 command: RTRV-INVENTORY:&quot;SLTE-5&quot;:ALL:UPC1;&#10;2022-09-03 19:49:43.265  INFO [           pool-1-thread-3] (OME6500.java:106) - Node &lt;response_block_series&gt; not found for : UNKNOWN. Process will continue.&#10;2022-09-03 19:49:43.270  INFO [           pool-1-thread-3] (UpcTargetExporter.java:94) - Saving file path: C:\Users\yding\OneDrive - Ciena Corporation\Documents\NAVA\ExternalTools\UPC\default-proj_20220903-194934\UPC_20220903-194934\restart-gates-complex_02_20220903-194939\10.132.242.85.txt&#10;2022-09-03 19:49:43.275 TRACE [           pool-1-thread-3] (GenericQueryPipeline.java:226) - At the end of the pipeline for TargetSpecs[shelf=SLTE-5-5, connectionIp=&lt;null&gt;, NetworkAccess=[username=ADMIN,useChallengeResponse=false,useSSH=false,useProxy=false,UseCustomPort=false], extraDataMap={}]" />
+                      <option name="highlightOnlyMatchingText" value="true" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-1978624" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="color" value="-16777216" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="grepExpression" value=".*FATAL.*" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.fatal.background" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="bold" value="true" />
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.fatal.foreground" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="grepExpression" value=".*ERROR.*" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.error.background" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.error.foreground" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="grepExpression" value=".*WARN.*" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.warn.background" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.warn.foreground" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="enabled" value="false" />
+                      <option name="grepExpression" value=".*INFO.*" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.info.background" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.info.foreground" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="grepExpression" value=".*DEBUG.*" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.debug.background" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.debug.foreground" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="grepExpression" value=".*TRACE.*" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.trace.background" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="colorKey" value="GrepConsole.trace.foreground" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                  </list>
+                </option>
+              </GrepExpressionGroup>
+              <GrepExpressionGroup>
+                <option name="name" value="@Theme Name@" />
+              </GrepExpressionGroup>
+            </list>
+          </option>
+          <option name="id" value="1655690552234" />
+          <option name="inputFilterGroups">
+            <list>
+              <GrepExpressionGroup>
+                <option name="grepExpressionItems">
+                  <list>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE" />
+                      <option name="enabled" value="false" />
+                      <option name="grepExpression" value=".*unwanted line.*" />
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE_UNLESS_PREVIOUSLY_MATCHED" />
+                      <option name="enabled" value="false" />
+                      <option name="grepExpression" value=".*unwanted line.*" />
+                    </GrepExpressionItem>
+                  </list>
+                </option>
+              </GrepExpressionGroup>
+            </list>
+          </option>
+          <option name="name" value="default" />
+        </Profile>
+      </list>
+    </option>
+    <option name="version" value="1" />
+  </component>
+</application>

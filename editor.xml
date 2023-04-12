@@ -1,6 +1,8 @@
 <application>
   <component name="CodeInsightSettings">
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
+    <option name="REFORMAT_ON_PASTE" value="1" />
+    <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
   </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
@@ -17,5 +19,7 @@
     <pattern pattern="\bNotImplementedException\b" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+    <pattern pattern="try_api" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;RLSTODO)(\W|$)(.*)" />
   </component>
 </application>
