@@ -38,12 +38,12 @@
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
   <action id="RecentFiles" />
-  <action id="Refactorings.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="ctrl t" />
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
-  </action>
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
   <action id="Run" />
   <action id="Sql.EditParameter">
