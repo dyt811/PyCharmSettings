@@ -15,8 +15,8 @@
       <mapping pattern=".xtera_trial_env" type="PLAIN_TEXT" />
       <mapping pattern=".flake8" type="PLAIN_TEXT" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
-      <mapping pattern=".env1" type="PLAIN_TEXT" />
       <mapping pattern="5bd48b7daafc00fc2617770df9853441" type="PLAIN_TEXT" />
+      <mapping pattern=".env1" type="PLAIN_TEXT" />
       <mapping pattern=".rover12env" type="PLAIN_TEXT" />
       <mapping pattern=".env_nabih" type="PLAIN_TEXT" />
       <mapping pattern=".env_old" type="PLAIN_TEXT" />
@@ -27,9 +27,7 @@
       <mapping ext="py~develop" type="PLAIN_TEXT" />
       <mapping ext="py~head" type="PLAIN_TEXT" />
       <mapping ext="doctree" type="PLAIN_TEXT" />
-      <removed_mapping ext="txt" type="PLAIN_TEXT" />
       <mapping pattern="Nightly_Manta_Docker_Build_CentOS.sh" type="Shell Script" />
-      <mapping ext="txt" type="requirements.txt" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
@@ -37,6 +35,7 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
+      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
       <mapping pattern=".env_backup" type="Env File" />
     </extensionMap>
   </component>
