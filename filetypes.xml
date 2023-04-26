@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="version_number" type="AUTO_DETECTED" />
       <mapping pattern="RequireGoogleDownloader" type="AUTO_DETECTED" />
+      <mapping pattern="EMR_CONN" type="AUTO_DETECTED" />
       <mapping pattern="version" type="AUTO_DETECTED" />
       <mapping pattern="subscribe_session" type="AUTO_DETECTED" />
       <mapping pattern="DockerfileSlim2" type="Dockerfile" />
