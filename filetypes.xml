@@ -1,27 +1,28 @@
 <application>
   <component name="FileTypeManager" version="18">
-    <ignoreFiles list="*$py.class;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
+    <ignoreFiles list="*$py.class;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc" />
     <extensionMap>
       <mapping pattern="version_number" type="AUTO_DETECTED" />
-      <mapping pattern="RequireGoogleDownloader" type="AUTO_DETECTED" />
-      <mapping pattern="version" type="AUTO_DETECTED" />
       <mapping pattern="subscribe_session" type="AUTO_DETECTED" />
-      <mapping pattern="DockerfileSlim2" type="Dockerfile" />
+      <mapping pattern="version" type="AUTO_DETECTED" />
+      <mapping pattern="RequireGoogleDownloader" type="AUTO_DETECTED" />
       <mapping pattern="DockerfileSlim" type="Dockerfile" />
+      <mapping pattern="DockerfileSlim2" type="Dockerfile" />
+      <mapping pattern=".env_backup" type="Env File" />
       <mapping pattern="configureDataSport.m" type="Matlab" />
       <mapping ext="obj" type="Native" />
       <mapping ext="exe" type="Native" />
-      <mapping pattern=".xtera_trial_env" type="PLAIN_TEXT" />
       <mapping pattern=".env_Iceland_6500_GeoMesh" type="PLAIN_TEXT" />
-      <mapping pattern=".env_old" type="PLAIN_TEXT" />
-      <mapping pattern=".rover12env" type="PLAIN_TEXT" />
-      <mapping pattern="5bd48b7daafc00fc2617770df9853441" type="PLAIN_TEXT" />
-      <mapping pattern="requirements" type="PLAIN_TEXT" />
-      <mapping pattern=".test_bed_env" type="PLAIN_TEXT" />
+      <mapping pattern=".xtera_trial_env" type="PLAIN_TEXT" />
       <mapping pattern=".flake8" type="PLAIN_TEXT" />
-      <mapping pattern=".env1" type="PLAIN_TEXT" />
-      <mapping pattern=".env_nabih" type="PLAIN_TEXT" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
+      <mapping pattern=".env1" type="PLAIN_TEXT" />
+      <mapping pattern="5bd48b7daafc00fc2617770df9853441" type="PLAIN_TEXT" />
+      <mapping pattern=".rover12env" type="PLAIN_TEXT" />
+      <mapping pattern=".env_nabih" type="PLAIN_TEXT" />
+      <mapping pattern=".env_old" type="PLAIN_TEXT" />
+      <mapping pattern=".test_bed_env" type="PLAIN_TEXT" />
+      <mapping pattern="requirements" type="PLAIN_TEXT" />
       <mapping pattern=".env_GLS" type="PLAIN_TEXT" />
       <mapping pattern=".flaskenv" type="PLAIN_TEXT" />
       <mapping ext="py~develop" type="PLAIN_TEXT" />
@@ -36,7 +37,6 @@
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
       <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
-      <mapping pattern=".env_backup" type="Env File" />
     </extensionMap>
   </component>
 </application>
