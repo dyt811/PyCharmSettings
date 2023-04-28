@@ -1,18 +1,18 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="SpectrumOptimizer" />
-    <option name="defaultScopeName" value="SpectrumOptimizer" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="SpectrumOptimizer" />
-    <option name="FILE_MASK" value="*.py" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.java" />
     <mask>py</mask>
     <mask>*.pom</mask>
     <mask>*.html</mask>
     <mask>*.m</mask>
     <mask>*.json</mask>
-    <mask>*.java</mask>
     <mask>*.js</mask>
     <mask>*.py</mask>
+    <mask>*.java</mask>
   </component>
 </application>
