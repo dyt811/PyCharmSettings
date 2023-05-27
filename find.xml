@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="SpectrumOptimizer" />
+    <option name="defaultScopeName" value="SpectrumOptimizer" />
+    <option name="SEARCH_SCOPE" value="SpectrumOptimizer" />
     <option name="FILE_MASK" value="*.py" />
     <mask>*.css</mask>
     <mask>*.html</mask>
