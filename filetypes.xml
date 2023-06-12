@@ -16,8 +16,8 @@
       <mapping pattern=".xtera_trial_env" type="PLAIN_TEXT" />
       <mapping pattern=".flake8" type="PLAIN_TEXT" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
-      <mapping pattern="5bd48b7daafc00fc2617770df9853441" type="PLAIN_TEXT" />
       <mapping pattern=".env1" type="PLAIN_TEXT" />
+      <mapping pattern="5bd48b7daafc00fc2617770df9853441" type="PLAIN_TEXT" />
       <mapping pattern=".rover12env" type="PLAIN_TEXT" />
       <mapping pattern=".env_nabih" type="PLAIN_TEXT" />
       <mapping pattern=".env_old" type="PLAIN_TEXT" />
