@@ -26,6 +26,7 @@
       <mapping pattern=".flaskenv" type="PLAIN_TEXT" />
       <mapping ext="py~develop" type="PLAIN_TEXT" />
       <mapping ext="py~head" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="doctree" type="PLAIN_TEXT" />
       <mapping pattern="Nightly_Manta_Docker_Build_CentOS.sh" type="Shell Script" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
