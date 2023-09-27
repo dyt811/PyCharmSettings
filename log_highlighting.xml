@@ -1,0 +1,21 @@
+<application>
+  <component name="LogHighlightingSettings">
+    <highlightingPatterns>
+      <LogHighlightingPattern pattern="ERROR" fg="-65536" bold="true" stripe="true" />
+      <LogHighlightingPattern pattern="WARN" action="HIGHLIGHT_MATCH" fg="-22016" bold="true" />
+      <LogHighlightingPattern pattern="INFO" fg="-12599489" />
+      <LogHighlightingPattern pattern="CRITICAL" action="HIGHLIGHT_MATCH" fg="-196589" stripe="true" />
+      <LogHighlightingPattern pattern="DEBUG" action="HIGHLIGHT_MATCH" fg="-1550" stripe="true" />
+    </highlightingPatterns>
+    <parsingPatterns>
+      <LogParsingPattern enabled="false" name="Pipe-separated" pattern="^(?s)([^|]*)\|([^|]*)\|([^|]*)\|(.*)$" timePattern="HH:mm:ss.SSS" linePattern="^\d" timeId="0" severityId="1" categoryId="2" />
+      <LogParsingPattern enabled="false" name="IntelliJ IDEA" pattern="^([^\[]+)(\[[\s\d]+])\s*(\w*)\s*-\s*(\S*)\s*-(.+)$" timePattern="yyyy-MM-dd HH:mm:ss,SSS" linePattern="^\d" timeId="0" severityId="2" categoryId="3" />
+      <LogParsingPattern enabled="false" name="TeamCity build log" pattern="^\[([^]]+)](.):\s*(\[[^]]+])?(.*)$" timePattern="HH:mm:ss" linePattern="^\[" timeId="0" severityId="1" categoryId="2" />
+      <LogParsingPattern enabled="false" name="Yang Format" linePattern="\[" severityId="0" categoryId="1" fullmatch="true" />
+      <LogParsingPattern name="Loguru" linePattern="202" severityId="0" categoryId="1" fullmatch="true" />
+    </parsingPatterns>
+    <settingsVersion>4</settingsVersion>
+    <lastAddedDefaultFormat>3</lastAddedDefaultFormat>
+    <readonlySizeThreshold>5000</readonlySizeThreshold>
+  </component>
+</application>

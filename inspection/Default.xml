@@ -1,3 +1,63 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
+  <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="HighlightComments" enabled="true" level="Additional Comments" enabled_by_default="true">
+    <scope name="Project Files" level="Additional Comments" enabled="true" />
+  </inspection_tool>
+  <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ourVersions">
+      <value>
+        <list size="3">
+          <item index="0" class="java.lang.String" itemvalue="3.9" />
+          <item index="1" class="java.lang.String" itemvalue="3.10" />
+          <item index="2" class="java.lang.String" itemvalue="3.11" />
+        </list>
+      </value>
+    </option>
+  </inspection_tool>
+  <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoredPackages">
+      <value>
+        <list size="6">
+          <item index="0" class="java.lang.String" itemvalue="tqdm" />
+          <item index="1" class="java.lang.String" itemvalue="matplotlib" />
+          <item index="2" class="java.lang.String" itemvalue="pillow" />
+          <item index="3" class="java.lang.String" itemvalue="numpy" />
+          <item index="4" class="java.lang.String" itemvalue="torchvision" />
+          <item index="5" class="java.lang.String" itemvalue="licensing" />
+        </list>
+      </value>
+    </option>
+  </inspection_tool>
+  <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ignoredErrors">
+      <list>
+        <option value="E402" />
+      </list>
+    </option>
+  </inspection_tool>
+  <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ignoredErrors">
+      <list>
+        <option value="N803" />
+        <option value="N806" />
+        <option value="N802" />
+      </list>
+    </option>
+    <option name="ignoredBaseClasses">
+      <list>
+        <option value="unittest.TestCase" />
+        <option value="unittest.case.TestCase" />
+        <option value="spectrumOptimizer.interface.shelf.Shelf6500" />
+      </list>
+    </option>
+  </inspection_tool>
+  <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoredIdentifiers">
+      <list>
+        <option value="freq_THerz_red_edge_central" />
+      </list>
+    </option>
+  </inspection_tool>
 </profile>

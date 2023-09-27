@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="ZoomCurrentWindow">
+        <abbreviation name=";zoas" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
