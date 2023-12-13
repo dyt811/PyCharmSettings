@@ -79,4 +79,16 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="com.alexey-anufriev.scopes-manager.AddToScopeActionGroup">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="com.alexey-anufriev.scopes-manager.AddToScopeActionGroup_RD">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="com.alexey-anufriev.scopes-manager.RemoveFromScopeActionGroup">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="com.alexey-anufriev.scopes-manager.RemoveFromScopeActionGroup_RD">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
 </keymap>
