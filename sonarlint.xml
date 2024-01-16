@@ -1,5 +1,14 @@
 <application>
   <component name="SonarLintGlobalSettings">
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="https://sonarqube.roche.com/" />
+          <token>dfd9dfdbdfdfdff5df9bdf9cdfcbdfcedfcedfccdf9ddfcedf93df9adf99df9adfcedfcedfcfdfccdf92df99df98dfc8df9cdf9adfcedfccdfc8dfc9dfcbdf9ddf9edfcbdf92df9edf98dfcbdfcbdf98df99df9fdf93df9b</token>
+          <option name="name" value="Roche Sonar Qube" />
+        </SonarQubeServer>
+      </list>
+    </option>
     <rules />
   </component>
 </application>
